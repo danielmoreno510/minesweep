@@ -1,0 +1,111 @@
+h1 {
+  display: inline;
+  font-size: 42px;
+}
+
+h2 {
+  display: inline;
+  font-size: 34px;
+  color: red;
+  width: 80px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #7c7c7c;
+  background-color: #bebebe;
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.2);
+  font-weight: 900;
+  text-align: center;
+  line-height: 40px;
+  user-select: none;
+  color: rgb(236, 240, 39);
+  font-size: 20pt;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.enabled:hover {
+  border: 2px solid #7c7c7c;
+  background-color: #a5a5a5;
+}
+
+.cell.opened {
+  background-color: #d5d5d5;
+  border: 2px solid #a0a0a0;
+}
+
+.icon {
+  font-size: 40px;
+  cursor: pointer;
+  background: yellow;
+  border: 1px solid #7c7c7c;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  justify-content: center;
+}
+
+.icon:hover {
+  background: #eded02;
+}
+
+.inputs {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 60px;
+  padding: 4px;
+  margin: 4px;
+}
+
+
+.val1 {
+  color: blue
+}
+
+.val2 {
+  color: green
+}
+
+.val3 {
+  color: red
+}
+
+.val4 {
+  color: rgb(0, 0, 135)
+}
+
+.val5 {
+  color: rgb(88, 0, 0)
+}
+
+.val6 {
+  color: rgb(0, 66, 0)
+}
